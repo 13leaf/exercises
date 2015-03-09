@@ -1,0 +1,2 @@
+# exercises
+Personal Exercises code
