@@ -12,12 +12,12 @@ class WhiteBlankFactory
   
   public WhiteBlank newLeftRect(int y)
   {
-    return new WhiteBlank(fixedWidth/2-radius-childRadius,y,100,100);
+    return new WhiteBlank((int)(fixedWidth/2-radius-childRadius),y,100,100);
   }
   
   public WhiteBlank newRightRect(int y)
   {
-    return new WhiteBlank(radius*2+childRadius-50,y,100,100);
+    return new WhiteBlank((int)(radius*2+childRadius-50),y,100,100);
   }
 }
 

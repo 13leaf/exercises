@@ -7,7 +7,7 @@ float childRadius=15;
 int fixedWidth=radius*3+radius/2;
 WhiteBlankFactory factory=new WhiteBlankFactory();
 
-ArrayList blanks=new ArrayList();
+ArrayList<WhiteBlank> blanks=new ArrayList<WhiteBlank>();
 
 void setup()
 {
